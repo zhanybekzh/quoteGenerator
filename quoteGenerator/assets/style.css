@@ -1,0 +1,58 @@
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+main {
+}
+footer {
+  margin-top: auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+body.dark-theme footer {
+  background-color: #febb59;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  min-height: 70px;
+}
+.footer .footer__author-link {
+  display: block;
+  color: black;
+  margin-left: 30px;
+}
+.footer .school__link {
+  display: block;
+}
+.footer .school__link img {
+  display: block;
+  width: 100px;
+}
+.footer .date-creation {
+  text-align: center;
+  margin-left: auto;
+  color: #000000;
+}
